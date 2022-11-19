@@ -703,7 +703,7 @@ void newstudent() {
     {
         if(strcmp(students[i].name,name) == 0){
             con = 1;
-            printf("Student uz existuje.\n");
+            printf("Student uz existuje!\n");
             break;
         }
         else
